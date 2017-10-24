@@ -10,4 +10,4 @@ ADD launch.sh launch.sh
 
 RUN chmod +x launch.sh
 
-CMD ./start.sh
+CMD ./launch.sh
