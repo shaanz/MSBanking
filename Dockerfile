@@ -6,8 +6,8 @@ MAINTAINER Google
 
 EXPOSE 8000
 
-ADD start.sh start.sh
+ADD launch.sh launch.sh
 
-RUN chmod +x start.sh
+RUN chmod +x launch.sh
 
 CMD ./start.sh
